@@ -85,6 +85,7 @@ namespace AppDomainTool {
 
             d.CheckFileExists = true;
             d.DefaultExt = ".arff";
+            d.AddExtension = true;
 
             var result = d.ShowDialog();
 
@@ -219,7 +220,8 @@ namespace AppDomainTool {
         private void saveARFFAsToolStripMenuItem_Click( object sender, EventArgs e ) {
             var d = new SaveFileDialog();
             d.DefaultExt = ".arff";
-
+            d.AddExtension = true;
+            
             var result = d.ShowDialog();
 
             if ( result != DialogResult.OK )
@@ -369,7 +371,31 @@ namespace AppDomainTool {
             update_show_checks();
         }
 
-        
+        private void MainForm_KeyPress(object sender, KeyPressEventArgs e)
+        { 
+            switch( e.KeyChar )
+            {
+                case 'b':
+                case 'B':
+                    ck_Bug.Checked = !ck_Bug.Checked;
+                    break;
+
+                case 'f':
+                case 'F':
+                    ck_Feature.Checked = !ck_Feature.Checked;
+                    break;
+
+                case 'h':
+                case 'H':
+                    ck_Human.Checked = !ck_Human.Checked;
+                    break;
+
+                case 'm':
+                case 'M':
+                    ck_Market.Checked = !ck_Market.Checked;
+                    break;
+            }
+        }
 
         private void update_checks() {
             if ( CurrentPost() == null )

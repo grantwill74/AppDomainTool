@@ -192,7 +192,7 @@
             this.twitterToolStripMenuItem.Checked = true;
             this.twitterToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.twitterToolStripMenuItem.Name = "twitterToolStripMenuItem";
-            this.twitterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.twitterToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.twitterToolStripMenuItem.Text = "Twitter";
             this.twitterToolStripMenuItem.Click += new System.EventHandler(this.twitterToolStripMenuItem_Click);
             // 
@@ -201,7 +201,7 @@
             this.appStoreToolStripMenuItem.Checked = true;
             this.appStoreToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.appStoreToolStripMenuItem.Name = "appStoreToolStripMenuItem";
-            this.appStoreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.appStoreToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.appStoreToolStripMenuItem.Text = "Appstore";
             this.appStoreToolStripMenuItem.Click += new System.EventHandler(this.appStoreToolStripMenuItem_Click);
             // 
@@ -210,7 +210,7 @@
             this.playStoreToolStripMenuItem.Checked = true;
             this.playStoreToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.playStoreToolStripMenuItem.Name = "playStoreToolStripMenuItem";
-            this.playStoreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.playStoreToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.playStoreToolStripMenuItem.Text = "Playstore";
             this.playStoreToolStripMenuItem.Click += new System.EventHandler(this.playStoreToolStripMenuItem_Click);
             // 
@@ -236,7 +236,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.RightSplitPanel);
             this.splitContainer1.Size = new System.Drawing.Size(784, 537);
-            this.splitContainer1.SplitterDistance = 351;
+            this.splitContainer1.SplitterDistance = 350;
             this.splitContainer1.SplitterWidth = 3;
             this.splitContainer1.TabIndex = 1;
             // 
@@ -247,7 +247,7 @@
             this.LeftSplitPanel.Location = new System.Drawing.Point(0, 0);
             this.LeftSplitPanel.Margin = new System.Windows.Forms.Padding(2);
             this.LeftSplitPanel.Name = "LeftSplitPanel";
-            this.LeftSplitPanel.Size = new System.Drawing.Size(351, 537);
+            this.LeftSplitPanel.Size = new System.Drawing.Size(350, 537);
             this.LeftSplitPanel.TabIndex = 0;
             // 
             // PostList
@@ -256,7 +256,7 @@
             this.PostList.FormattingEnabled = true;
             this.PostList.Location = new System.Drawing.Point(0, 0);
             this.PostList.Name = "PostList";
-            this.PostList.Size = new System.Drawing.Size(351, 537);
+            this.PostList.Size = new System.Drawing.Size(350, 537);
             this.PostList.TabIndex = 2;
             this.PostList.SelectedIndexChanged += new System.EventHandler(this.PostList_SelectedIndexChanged);
             // 
@@ -267,7 +267,7 @@
             this.RightSplitPanel.Location = new System.Drawing.Point(0, 0);
             this.RightSplitPanel.Margin = new System.Windows.Forms.Padding(2);
             this.RightSplitPanel.Name = "RightSplitPanel";
-            this.RightSplitPanel.Size = new System.Drawing.Size(430, 537);
+            this.RightSplitPanel.Size = new System.Drawing.Size(431, 537);
             this.RightSplitPanel.TabIndex = 0;
             // 
             // splitContainer2
@@ -286,8 +286,8 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.BottomSplitPanel);
-            this.splitContainer2.Size = new System.Drawing.Size(430, 537);
-            this.splitContainer2.SplitterDistance = 378;
+            this.splitContainer2.Size = new System.Drawing.Size(431, 537);
+            this.splitContainer2.SplitterDistance = 379;
             this.splitContainer2.SplitterWidth = 3;
             this.splitContainer2.TabIndex = 0;
             // 
@@ -300,7 +300,7 @@
             this.PostText.ReadOnly = true;
             this.PostText.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.PostText.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.PostText.Size = new System.Drawing.Size(430, 378);
+            this.PostText.Size = new System.Drawing.Size(431, 379);
             this.PostText.TabIndex = 1;
             this.PostText.Text = "Open an ARFF file to view posts.";
             // 
@@ -373,12 +373,12 @@
             // ck_Bug
             // 
             this.ck_Bug.AutoSize = true;
-            this.ck_Bug.Location = new System.Drawing.Point(13, 41);
+            this.ck_Bug.Location = new System.Drawing.Point(7, 41);
             this.ck_Bug.Margin = new System.Windows.Forms.Padding(2);
             this.ck_Bug.Name = "ck_Bug";
-            this.ck_Bug.Size = new System.Drawing.Size(80, 17);
+            this.ck_Bug.Size = new System.Drawing.Size(96, 17);
             this.ck_Bug.TabIndex = 6;
-            this.ck_Bug.Text = "Bug Report";
+            this.ck_Bug.Text = "&Bug Report (B)";
             this.ck_Bug.UseVisualStyleBackColor = true;
             this.ck_Bug.CheckedChanged += new System.EventHandler(this.ck_Bug_CheckedChanged);
             // 
@@ -386,7 +386,7 @@
             // 
             this.ck_Technical.AutoSize = true;
             this.ck_Technical.Enabled = false;
-            this.ck_Technical.Location = new System.Drawing.Point(13, 102);
+            this.ck_Technical.Location = new System.Drawing.Point(7, 101);
             this.ck_Technical.Margin = new System.Windows.Forms.Padding(2);
             this.ck_Technical.Name = "ck_Technical";
             this.ck_Technical.Size = new System.Drawing.Size(73, 17);
@@ -397,12 +397,12 @@
             // ck_Feature
             // 
             this.ck_Feature.AutoSize = true;
-            this.ck_Feature.Location = new System.Drawing.Point(13, 62);
+            this.ck_Feature.Location = new System.Drawing.Point(7, 62);
             this.ck_Feature.Margin = new System.Windows.Forms.Padding(2);
             this.ck_Feature.Name = "ck_Feature";
-            this.ck_Feature.Size = new System.Drawing.Size(105, 17);
+            this.ck_Feature.Size = new System.Drawing.Size(120, 17);
             this.ck_Feature.TabIndex = 5;
-            this.ck_Feature.Text = "Feature Request";
+            this.ck_Feature.Text = "&Feature Request (F)";
             this.ck_Feature.UseVisualStyleBackColor = true;
             this.ck_Feature.CheckedChanged += new System.EventHandler(this.ck_Feature_CheckedChanged);
             // 
@@ -441,9 +441,9 @@
             this.ck_Human.Location = new System.Drawing.Point(5, 41);
             this.ck_Human.Margin = new System.Windows.Forms.Padding(2);
             this.ck_Human.Name = "ck_Human";
-            this.ck_Human.Size = new System.Drawing.Size(60, 17);
+            this.ck_Human.Size = new System.Drawing.Size(77, 17);
             this.ck_Human.TabIndex = 4;
-            this.ck_Human.Text = "Human";
+            this.ck_Human.Text = "&Human (H)";
             this.ck_Human.UseVisualStyleBackColor = true;
             this.ck_Human.CheckedChanged += new System.EventHandler(this.ck_Human_CheckedChanged);
             // 
@@ -453,9 +453,9 @@
             this.ck_Market.Location = new System.Drawing.Point(5, 62);
             this.ck_Market.Margin = new System.Windows.Forms.Padding(2);
             this.ck_Market.Name = "ck_Market";
-            this.ck_Market.Size = new System.Drawing.Size(59, 17);
+            this.ck_Market.Size = new System.Drawing.Size(77, 17);
             this.ck_Market.TabIndex = 3;
-            this.ck_Market.Text = "Market";
+            this.ck_Market.Text = "&Market (M)";
             this.ck_Market.UseVisualStyleBackColor = true;
             this.ck_Market.CheckedChanged += new System.EventHandler(this.ck_Market_CheckedChanged);
             // 
@@ -556,11 +556,13 @@
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.TopSplitPanel);
             this.Controls.Add(this.menuStrip1);
+            this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(643, 488);
+            this.MinimumSize = new System.Drawing.Size(642, 486);
             this.Name = "MainForm";
             this.Text = "App Domain Tool";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MainForm_KeyPress);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);

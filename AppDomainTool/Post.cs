@@ -24,9 +24,9 @@ namespace AppDomainTool {
         public string Rating { get; private set; }
 
         public Post( string text, string platform, string app, string rating = null ) {
-            Text = text;
-            Platform = platform;
-            App = app;
+            Text = text.Trim();
+            Platform = platform.Trim();
+            App = app.Trim();
             Rating = rating;
 
             Human = Market = Feature = Bug = false;
